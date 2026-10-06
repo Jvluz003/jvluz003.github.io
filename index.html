@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Victor Luz - Portfólio</title>
+    <!-- Google Fonts: Space Grotesk & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Biblioteca GSAP para Animações -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <!-- Navegação Superior -->
+    <nav class="navbar">
+      <div class="logo">JVL</div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- Seção Inicial (Hero) -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <img
+          src="foto-de-perfil.jpg"
+          alt="João Victor Luz"
+          class="profile-img"
+        />
+        <h1 class="gsap-hero">João Victor Luz de Jesus</h1>
+        <h2 class="gsap-hero accent-text">
+          Analista de Suporte | Junior | N1 e N2
+        </h2>
+        <p class="gsap-hero">São José do Rio Preto, SP</p>
+        <a href="#contato" class="btn gsap-hero">Vamos Conversar</a>
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+      <div class="container text-center">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p class="about-text gsap-fade" style="margin: 0 auto">
+          Graduando em
+          <strong>Análise e Desenvolvimento de Sistemas</strong> pela
+          Universidade Presbiteriana Mackenzie, atuo com foco em
+          <strong>Suporte Técnico (N1/N2)</strong>,
+          <strong>Implantação (Onboarding)</strong> e
+          <strong>Customer Success</strong>. Possuo experiência em ambientes
+          SaaS e soluções de tecnologia conectada, aliando capacidade analítica
+          e agilidade na resolução de problemas.
+        </p>
+
+        <ul class="skills-highlights gsap-fade">
+          <li>
+            <strong>Suporte Técnico (N1/N2):</strong> Diagnóstico de incidentes
+            e gestão de chamados com taxa de SLA superior a 70% na primeira
+            resposta e +65% de resolução no primeiro contato.
+          </li>
+          <li>
+            <strong>Implantação & CS:</strong> Condução de onboarding de novos
+            clientes, parametrização de CRM, suporte consultivo e acompanhamento
+            de métricas de retenção.
+          </li>
+          <li>
+            <strong>Documentação & Processos:</strong> Criação de guias e FAQs
+            para promover autonomia aos clientes, além do reporte estruturado de
+            <em>bugs</em> para times de desenvolvimento.
+          </li>
+          <li>
+            <strong>Ferramentas & Tecnologias:</strong> Domínio de TOTVS
+            Protheus, Crisp, ClickUp, CRM, SQL, Excel e linguagens web (HTML,
+            CSS, JS).
+          </li>
+        </ul>
+
+        <div class="objective-card gsap-fade">
+          <h3 class="objective-title">Objetivo Profissional</h3>
+          <p class="objective-text">
+            "Graduando em ADS com experiência em atendimento N1/N2, implantação
+            de sistemas e Customer Success. Busco atuar como
+            <strong>Analista de Suporte Junior</strong>, aplicando diagnósticos
+            ágeis, gestão de SLAs e foco no cliente para entregar eficiência
+            operacional e resultados consistentes para o time."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Experiência -->
+    <section id="experiencia" class="section dark-section">
+      <div class="container">
+        <h2 class="section-title">Experiência Profissional</h2>
+        <div class="timeline">
+          <div class="timeline-item gsap-fade">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Assistente de Soluções Conectadas</h3>
+              <h4>Tracbel Agro | John Deere</h4>
+              <span class="date">02/2025 - Atual</span>
+              <p>
+                Atendimento e resolução de incidentes de tecnologia conectada da
+                John Deere, prestando suporte remoto a clientes internos e
+                externos. Mantive índice superior a 70% de cumprimento do SLA em
+                até 5 minutos e índice de resolução no primeiro contato superior
+                a 65%.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item gsap-fade">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Analista de Suporte</h3>
+              <h4>Clieent®CRM</h4>
+              <span class="date">12/2023 - 02/2025</span>
+              <p>
+                Prestação de suporte técnico N1 e N2 em ambiente SaaS via
+                sistema Crisp, garantindo atendimento dentro dos SLAs. Condução
+                de processos de onboarding e elaboração de guias e FAQs para
+                aumentar a autonomia dos usuários.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Habilidades e Formação -->
+    <section id="habilidades" class="section">
+      <div class="container dual-col">
+        <div class="skills-col gsap-slide-right">
+          <h2 class="section-title">Habilidades</h2>
+          <div class="skills-grid">
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML & CSS</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Gestão de SLA</span>
+            <span class="skill-tag">Suporte N1 e N2</span>
+            <span class="skill-tag">Onboarding</span>
+            <span class="skill-tag">Notion / ClickUp</span>
+            <span class="skill-tag">Sistemas ERP / CRM</span>
+          </div>
+        </div>
+        <div class="education-col gsap-slide-left">
+          <h2 class="section-title">Formação</h2>
+          <div class="edu-item">
+            <h3>Análise e Desenvolvimento de Sistemas</h3>
+            <p>Universidade Presbiteriana Mackenzie</p>
+            <span class="date">Conclusão: 11/2027</span>
+          </div>
+          <div class="edu-item">
+            <h3>Introdução à Prática da Programação (20h)</h3>
+            <p>Senac São José do Rio Preto</p>
+            <span class="date">Concluído: 07/2023</span>
+          </div>
+          <div class="edu-item">
+            <h3>Curso de JavaScript (40h)</h3>
+            <p>Curso em Vídeo</p>
+            <span class="date">Concluído: 08/2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section dark-section">
+      <div class="container text-center">
+        <h2 class="section-title">Contato</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem">
+          Pronto para resolver problemas e agregar valor à sua equipe.
+        </p>
+        <div class="contact-links gsap-fade">
+          <a href="mailto:jvluz003@gmail.com" class="contact-item"
+            >📧 jvluz003@gmail.com</a
+          >
+          <a
+            href="https://www.linkedin.com/in/joaovictorluz003"
+            class="contact-item"
+            target="_blank"
+            >💼 LinkedIn</a
+          >
+          <a href="tel:+5517988265512" class="contact-item"
+            >📱 (17) 98826-5512</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 JVLuz Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
